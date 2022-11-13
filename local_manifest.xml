@@ -8,7 +8,7 @@
 		fetch="https://github.com/nerdprojectorg" />
 	
 	<!-- aospa-sdm660 -->
-        <remove-project name="android_vendor_aospa" />
+        <remove-project name="AOSPA/android_vendor_aospa" />
 	<project path="vendor/aospa" name="android_vendor_aospa" remote="z3zens" >
     	  <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
