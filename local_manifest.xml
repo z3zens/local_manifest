@@ -4,10 +4,14 @@
 	<remote name="z3zens"
 		fetch="https://github.com/z3zens" />
 	
-		<remote name="nerdprojectorg"
+	<remote name="nerdprojectorg"
 		fetch="https://github.com/nerdprojectorg" />
 	
-        <!-- Device -->
+	<!-- Track -->
+        <remove-project name="android_vendor_aospa" />
+	<project path="vendor/aospa" name="android_vendor_aospa" remote="z3zens" >
+    	  <linkfile src="build.sh" dest="rom-build.sh" />
+        </project>
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="z3zens" revision="topaz" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="topaz" />
         <project path="kernel/msm-4.19" name="android_kernel_asus_sdm660" remote="nerdprojectorg" revision="tm" />
