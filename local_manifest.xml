@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
 	<remote name="z3zens"
 		fetch="https://github.com/z3zens" />
+	
+		<remote name="nerdprojectorg"
+		fetch="https://github.com/nerdprojectorg" />
 	
         <!-- Device -->
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="z3zens" revision="topaz" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="topaz" />
-        <project path="kernel/msm-4.19" name="android_kernel_asus_sdm660" remote="z3zens" revision="topaz" />
+        <project path="kernel/msm-4.19" name="android_kernel_asus_sdm660" remote="nerdprojectorg" revision="tm" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="topaz" />
 	<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="z3zens" revision="topaz" />
 	<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="z3zens" revision="topaz-sdm660" />
