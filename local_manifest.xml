@@ -12,16 +12,24 @@
 	<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
 	<project path="device/qcom/sepolicy-legacy" name="z3zens/android_device_qcom_sepolicy" remote="github" revision="topaz" />
 	
-	<!-- Trees -->
-        <project path="device/asus/X01BD" name="z3zens/android_device_asus_X01BD" remote="github" revision="topaz" />
-        <project path="device/asus/sdm660-common" name="z3zens/android_device_asus_sdm660-common" remote="github" revision="topaz" />
-        <project path="kernel/msm-4.19" name="z3zens/android_kernel_asus_sdm660" remote="github" revision="topaz" />
-        <project path="vendor/asus" name="z3zens/proprietary_vendor_asus" remote="github" revision="topaz" />
+	<!-- GCC -->
+  	<project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
+  	<project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
+  	<project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
+  	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
+  	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
+  	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
 	
 	<!-- HAL's -->
 	<project path="hardware/qcom/media" name="z3zens/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/display" name="z3zens/android_hardware_qcom_display" remote="github" revision="topaz-sdm660" />
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="z3zens/android_hardware_qcom_audio" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/gps" name="z3zens/android_hardware_qcom_gps" remote="github" revision="topaz-smxx50" />
+	
+	<!-- Trees -->
+        <project path="device/asus/X01BD" name="z3zens/android_device_asus_X01BD" remote="github" revision="topaz" />
+        <project path="device/asus/sdm660-common" name="z3zens/android_device_asus_sdm660-common" remote="github" revision="topaz" />
+        <project path="kernel/msm-4.19" name="z3zens/android_kernel_asus_sdm660" remote="github" revision="topaz" />
+        <project path="vendor/asus" name="z3zens/proprietary_vendor_asus" remote="github" revision="topaz" />
 	
 </manifest>
