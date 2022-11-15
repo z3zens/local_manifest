@@ -3,7 +3,7 @@
 	
 	<!-- Fork's (AOSPA) -->
         <remove-project name="AOSPA/android_vendor_aospa" />
-	<project path="vendor/aospa" name="z3zens/android_vendor_aospa" remote="github" revision="topaz" >
+	<project path="vendor/aospa" name="AOSPA-X01BD/android_vendor_aospa" remote="github" revision="topaz" >
     	  <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
 	<project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy">
