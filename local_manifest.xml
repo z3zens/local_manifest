@@ -24,7 +24,7 @@
 	<project path="hardware/qcom/media" name="AOSPA-X01BD/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/display" name="AOSPA-X01BD/android_hardware_qcom_display" remote="github" revision="topaz-sdm660" />
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA-X01BD/android_hardware_qcom_audio" remote="github" revision="topaz-sdm660" />
-	<project path="hardware/qcom/gps" name="AOSPA-X01BD/android_hardware_qcom_gps" remote="github" revision="topaz-smxx50" />
+	<project path="hardware/qcom/gps" name="AOSPA-X01BD/android_hardware_qcom_gps" remote="github" revision="topaz-SMxx50" />
 	
 	<!-- Trees -->
         <project path="device/asus/X01BD" name="AOSPA-X01BD/android_device_asus_X01BD" remote="github" revision="topaz" />
