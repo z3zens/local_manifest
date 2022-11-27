@@ -13,7 +13,7 @@
 	<project path="device/qcom/sepolicy-legacy" name="AOSPA-X01BD/android_device_qcom_sepolicy" remote="github" revision="topaz" />
         <project path="device/asus/X01BD" name="AOSPA-X01BD/android_device_asus_X01BD" remote="github" revision="topaz" />
         <project path="device/asus/sdm660-common" name="AOSPA-X01BD/android_device_asus_sdm660-common" remote="github" revision="sapphire" />
-        <project path="kernel/msm-4.19" name="nerdprojectorg/android_kernel_asus_sdm660" remote="github" revision="topaz-rebase" />
+        <project path="kernel/msm-4.19" name="AOSPA-X01BD/kernel_msm-4.19" remote="github" revision="sapphire" />
         <project path="vendor/asus" name="AOSPA-X01BD/proprietary_vendor_asus" remote="github" revision="sapphire" />
 	
 </manifest>
