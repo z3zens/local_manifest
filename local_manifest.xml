@@ -7,7 +7,7 @@
     	  <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
 	<remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-	<project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA-X01BD/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" >
+	<project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA-X01BD/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" revision="sapphire" >
 	  <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
   	</project>
