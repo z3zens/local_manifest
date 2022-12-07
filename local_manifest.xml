@@ -10,6 +10,9 @@
 	<remote name="blobs-hals"
          	fetch="https://github.com/nerdprojectorg" />
 	
+	<remote name="ImSurajxD"
+		fetch="https://gitlab.com/ImSurajxD" /> 
+
         <!-- Device -->
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="blobs-hals" revision="rebase" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="blobs-hals" revision="rebase" />
@@ -27,6 +30,7 @@
  
         <!-- Prebuilts -->
         <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="SDClang" remote="blobs-hals" revision="14" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
  
         <!-- Vendor -->
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="blobs-hals" revision="rebase" />
