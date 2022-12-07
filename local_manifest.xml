@@ -32,9 +32,7 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="blobs-hals" revision="rebase" />
 	
 	<!-- xdroid-oss staging -->
-	<remove-project name="xd_vendor_xdroid" />
 	<remove-project name="xd_official-maintainer" />
-	<project path="vendor/xdroid" name="xioyo/xd_vendor_xdroid" remote="github" revision="thirteen" />
 	<project path="official-maintainer" name="xd_official-maintainer" remote="NerdZ3ns" revision="thirteen" />
 	<project path="official-settings" name="official-settings" remote="z3zens" revision="main" />
 </manifest>
