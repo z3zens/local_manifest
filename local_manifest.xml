@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-	<!-- Fork's (AOSPA) -->
+
         <remove-project name="AOSPA/android_vendor_aospa" />
 	<project path="vendor/aospa" name="AOSPA-X01BD/android_vendor_aospa" remote="github" revision="topaz" >
     	  <linkfile src="build.sh" dest="rom-build.sh" />
@@ -10,17 +9,11 @@
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
         </project>
 	<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
-	
-	<!-- HAL's -->
 	<project path="hardware/qcom/media" name="AOSPA-X01BD/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/display" name="AOSPA-X01BD/android_hardware_qcom_display" remote="github" revision="topaz-sdm660" />
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA-X01BD/android_hardware_qcom_audio" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/gps" name="AOSPA-X01BD/android_hardware_qcom_gps" remote="github" revision="topaz-SMxx50" />
-	
-	<!-- Sepolicy -->
 	<project path="device/qcom/sepolicy-legacy" name="AOSPA-X01BD/android_device_qcom_sepolicy" remote="github" revision="topaz" />
-	
-	<!-- Trees -->
         <project path="device/asus/X01BD" name="AOSPA-X01BD/android_device_asus_X01BD" remote="github" revision="topaz" />
         <project path="device/asus/sdm660-common" name="AOSPA-X01BD/android_device_asus_sdm660-common" remote="github" revision="topaz" />
         <project path="kernel/msm-4.19" name="AOSPA-X01BD/kernel_msm-4.19" remote="github" revision="topaz" />
