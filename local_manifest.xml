@@ -18,6 +18,6 @@
         <project path="device/asus/sdm660-common" name="AOSPA-X01BD/android_device_asus_sdm660-common" remote="github" revision="topaz" />
         <project path="kernel/msm-4.19" name="AOSPA-X01BD/kernel_msm-4.19" remote="github" revision="topaz" />
         <project path="vendor/asus" name="AOSPA-X01BD/proprietary_vendor_asus" remote="github" revision="topaz" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="github" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 	
 </manifest>
