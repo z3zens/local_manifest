@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-        <remove-project name="hardware_qcom_wlan" />
-        <remove-project name="android_hardware_lineage_compat" />
-        <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="github" revision="lineage-20.0-caf" clone-depth="1" />
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="github" revision="lineage-20" />
         <project path="device/asus/X01BD" name="NerdZ3ns/android_device_asus_X01BD" remote="github" revision="derp-13" />
         <project path="device/asus/sdm660-common" name="NerdZ3ns/android_device_asus_sdm660-common" remote="github" revision="tm" />
         <project path="kernel/asus/sdm660" name="NerdZ3ns/android_kernel_asus_sdm660" remote="github" revision="tm" />
