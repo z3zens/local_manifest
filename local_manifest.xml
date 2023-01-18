@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-	<remote name="NerdZ3ns"
-		fetch="https://github.com/NerdZ3ns" />
-
-	<remote name="z3zens"
-		fetch="https://github.com/z3zens" />
 	
-	<remote name="blobs-hals"
-         	fetch="https://github.com/nerdprojectorg" />
+        <project path="device/asus/X01BD" name="NerdZ3ns/android_device_asus_X01BD" remote="github" revision="rice" />
+        <project path="device/asus/sdm660-common" name="NerdZ3ns/android_device_asus_sdm660-common" remote="github" revision="lineage-20" />
+        <project path="kernel/asus/sdm660" name="NerdZ3ns/android_kernel_asus_sdm660" remote="github" revision="tm-rebase" />
+        <project path="vendor/asus" name="NerdZ3ns/proprietary_vendor_asus" remote="github" revision="tm" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 	
-	<remote name="ImSurajxD"
-		fetch="https://gitlab.com/ImSurajxD" /> 
-
-        <!-- Device -->
-        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="blobs-hals" revision="rebase" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="blobs-hals" revision="rebase" />
-        
-        <!-- Hardware -->
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media" remote="blobs-hals" revision="tm" />
-        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio" remote="blobs-hals" revision="tm" />
-        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="blobs-hals" revision="tm" />
-
-        <!-- Kernel -->
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="blobs-hals" revision="tm" />
- 
-        <!-- Prebuilts -->
-        <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="SDClang" remote="blobs-hals" revision="14" />
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- 
-        <!-- Vendor -->
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="blobs-hals" revision="rebase" />
-	
-	<!-- xdroid-oss staging -->
-	<remove-project name="xd_official-maintainer" />
-	<project path="official-maintainer" name="xd_official-maintainer" remote="NerdZ3ns" revision="thirteen" />
-	<project path="official-settings" name="official-settings" remote="z3zens" revision="main" />
 </manifest>
