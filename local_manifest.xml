@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-        <project path="device/asus/X01BD" name="NerdZ3ns/android_device_asus_X01BD" remote="github" revision="rice" />
-        <project path="device/asus/sdm660-common" name="NerdZ3ns/android_device_asus_sdm660-common" remote="github" revision="lineage-20" />
-        <project path="kernel/asus/sdm660" name="NerdZ3ns/android_kernel_asus_sdm660" remote="github" revision="tm-rebase" />
-        <project path="vendor/asus" name="NerdZ3ns/proprietary_vendor_asus" remote="github" revision="tm" />
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
+	<remote name="NerdZ3ns"
+		fetch="https://github.com/NerdZ3ns" />
+	
+        <remote name="clang"
+          fetch="https://gitlab.com/anandhan07" />
+	
+        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="NerdZ3ns" revision="rice" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="NerdZ3ns" revision="lineage-20" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="NerdZ3ns" revision="tm-rebase" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="NerdZ3ns" revision="tm" />
+	
+	<project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="clang" revision="clang-15.0.3" />
+ 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
 	
 </manifest>
