@@ -7,6 +7,9 @@
         <remote name="clang"
           fetch="https://gitlab.com/anandhan07" />
 	
+        <remote name="kdrag0n"
+          fetch="https://gitlab.com/kdrag0n" />
+	
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="NerdZ3ns" revision="rice" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="NerdZ3ns" revision="lineage-20" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="NerdZ3ns" revision="tm-rebase" />
@@ -14,5 +17,6 @@
 	
 	<project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="clang" revision="clang-15.0.3" />
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 	
 </manifest>
