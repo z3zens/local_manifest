@@ -5,10 +5,7 @@
 		fetch="https://github.com/z3zens" />
 	
         <remote name="clang"
-          fetch="https://gitlab.com/anandhan07" />
-	
-        <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
+          	fetch="https://gitlab.com/anandhan07" />
 	
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_audio" />
@@ -17,11 +14,16 @@
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="lineage" revision="lineage-19.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="lineage" revision="lineage-19.1-caf-msm8998" />
 	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" revision="lineage-19.1" />
+	
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="z3zens" revision="xd12" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="xd12" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="twelve" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="xd12" />
+	
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+	
+	<remove-project name="xd_official-maintainer" />
+	<project path="official-maintainer" name="xd_official-maintainer" remote="z3zens" revision="twelve" />
+	<project path="official-settings" name="official-settings" remote="z3zens" revision="main" />
 	
 </manifest>
