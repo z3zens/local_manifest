@@ -21,6 +21,7 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="xd12" />
 	
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="clang-r416183b1" remote="z3zens" revision="clang-12.0.7" />
 	
 	<remove-project name="xd_official-maintainer" />
 	<project path="official-maintainer" name="xd_official-maintainer" remote="z3zens" revision="twelve" />
