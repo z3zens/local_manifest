@@ -8,7 +8,7 @@
           	fetch="https://gitlab.com/anandhan07" />
 	
         <remote name="los"
-          	fetch="https://gitlab.com/LineageOS" />
+          	fetch="https://github.com/LineageOS" />
 	
         <remove-project name="xd_hardware_qcom-caf_media" />
         <remove-project name="xd_hardware_qcom-caf_audio" />
