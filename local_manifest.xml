@@ -16,7 +16,7 @@
         <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 	
-        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="z3zens" revision="rice" />
+        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="NerdZ3ns" revision="rice" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="lineage-20" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="lineage-20" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="NerdZ3ns" revision="tm" />
