@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-	<remote name="sdm660"
-          fetch="https://github.com/asus-sdm660-devs" />
 	
 	<remote name="z3zens"
           fetch="https://github.com/z3zens" />
@@ -13,7 +10,7 @@
         <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="z3zens" revision="rice" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="lineage-20" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="lineage-20" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="sdm660" revision="lineage-19.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="lineage-20" />
 	
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
 	
