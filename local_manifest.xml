@@ -25,6 +25,4 @@
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 	
-	<remove-project name="ricedroidOSS/android_system_memory_lmkd" />
-	<project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
 </manifest>
