@@ -15,7 +15,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="lineage-20" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="sdm660" revision="lineage-19.1" />
 	
-	<project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="clang" revision="clang-15.0.3" />
  	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
 	
 </manifest>
