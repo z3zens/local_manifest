@@ -26,5 +26,5 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 	
 	<remove-project name="ricedroidOSS/android_system_memory_lmkd" />
-	<project path="system/memory/lmkd" name="LineageOS/android_system_memory_lmkd" groups="pdk" revision="lineage-20.0" />
+	<project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
 </manifest>
