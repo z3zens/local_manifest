@@ -5,11 +5,6 @@
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
         </project>
 	<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
-        <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-        <project path="vendor/qcom/opensource/commonsys-intf/display" name="z3zens/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" >
-          <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-          <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-        </project>
 	<project path="hardware/qcom/media" name="AOSPA-X01BD/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/display" name="AOSPA-X01BD/android_hardware_qcom_display" remote="github" revision="topaz-sdm660" />
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA-X01BD/android_hardware_qcom_audio" remote="github" revision="topaz-sdm660" />
