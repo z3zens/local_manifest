@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="z3zens" fetch="https://github.com/z3zens" />
- <remote name="clang" fetch="https://gitlab.com/anandhan07" />
- <remote name="los" fetch="https://github.com/LineageOS" />
 
  <!-- Remove Hardware -->
+ <remove-prohect name="android_hardware_lineage_compat" />
  <remove-project name="xd_hardware_qcom-caf_media" />
  <remove-project name="xd_hardware_qcom-caf_audio" />
  <remove-project name="xd_hardware_qcom-caf_display" />
@@ -16,17 +14,16 @@
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="z3zens" revision="xd12" />
 
  <!-- Hardware -->
- <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="los" revision="lineage-19.1-caf-msm8998" />
- <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-19.1-caf-msm8998" />
- <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="los" revision="lineage-19.1-caf-msm8998" />
- <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="los" revision="lineage-19.1" />
+ <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,qcom_media" remote="github" revision="lineage-19.1-caf-msm8998" />
+ <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-19.1-caf-msm8998" />
+ <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lineage-19.1-caf-msm8998" />
+ <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="github " revision="lineage-19.1" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="twelve" />
 
  <!-- Prebuilts/Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
- <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="clang-r416183b1" remote="z3zens" revision="clang-12.0.7" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="xd12" />
