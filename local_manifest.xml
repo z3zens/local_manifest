@@ -3,7 +3,7 @@
  <remote name="z3zens" fetch="https://github.com/z3zens" />
 
  <!-- Remove Hardware -->
- <remove-prohect name="android_hardware_lineage_compat" />
+ <remove-project name="android_hardware_lineage_compat" />
  <remove-project name="xd_hardware_qcom-caf_media" />
  <remove-project name="xd_hardware_qcom-caf_audio" />
  <remove-project name="xd_hardware_qcom-caf_display" />
