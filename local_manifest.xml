@@ -20,6 +20,8 @@
         <project path="kernel/msm-4.4" name="z3zens/android_kernel_asus_sdm660" remote="github" revision="lineage-20" />
         <project path="vendor/asus" name="aospa-sdm660/proprietary_vendor_asus" remote="github" revision="topaz" />
 
+        <remove-project name="proprietary_vendor_qcom_sdclang" />
+        <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="14" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 	
 </manifest>
