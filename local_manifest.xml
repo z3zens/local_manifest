@@ -2,7 +2,6 @@
 <manifest>
 
         <remove-project name="AOSPA/android_vendor_aospa" />
-	<project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="github" revision="topaz" >
 	<project path="vendor/aospa" name="AOSPA-X01BD/android_vendor_aospa" remote="github" revision="topaz" >
     	  <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
