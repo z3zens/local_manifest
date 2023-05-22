@@ -11,7 +11,7 @@
  <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lineage-20.0-caf-sdm660" />
 
  <!-- Kernel Tree -->
- <project path="kernel/asus/sdm660" name="z3zens/android_kernel_asus_sdm660-4.19" remote="github" revision="test" clone-recursive="true" />
+ <project path="kernel/asus/sdm660" name="z3zens/android_kernel_asus_sdm660-4.19" remote="github" revision="test" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" name="nerdprojectorg/proprietary_vendor_asus" remote="github" revision="rebase" />
