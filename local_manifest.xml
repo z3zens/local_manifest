@@ -23,5 +23,5 @@
         <project path="vendor/asus" name="AOSPA-X01BD/proprietary_vendor_asus" remote="github" revision="topaz" />
 	
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
-	
+	<project path="prebuilts/clang-standalone" name="ThankYouMario/android_prebuilts_clang-standalone" remote="gitlab" revision="14" />
 </manifest>
